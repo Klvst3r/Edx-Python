@@ -1,0 +1,106 @@
+1.4.5. Week1 > Getting started > Algorithm and Programs
+
+
+https://youtu.be/Y2SlGUap2Gk
+
+
+
+    FARHAD KAMANGAR: Welcome back.
+
+    The previous lesson was about IDLE and Python shell.
+
+    And I'm sure you are interested to use the Python IDLE and write a program.
+
+    But before you do so, you should know what is a program
+    and what is an algorithm and what is the difference between them.
+
+    So let's see what is algorithm?
+    In simple terms, an algorithm is a description of how to solve a problem.
+
+    Another definition would be an algorithm is a step by step recipe
+    off how to perform a task.
+
+    You should understand that algorithms can be written and analyzed
+    in any language.
+
+    For example, when you are following a cookbook,
+    you're actually following an algorithm in English language.
+
+    We can also write an algorithm by mathematical equations,
+    or you can write an algorithm using a computer language.
+
+    Note that there are also different algorithms to solve the same problem.
+
+    So if you get the same problem to two different people,
+    they may follow different steps and obviously they're
+    following two different algorithms.
+
+    Let's have an example of an algorithm.
+
+    Let's assume we would like to write an algorithm to convert temperatures
+    from Celsius to Fahrenheit.
+
+    The first step of such an algorithm would be, of course,
+    to get the input Celsius.
+
+    When I say get the input, you can ask a person,
+    what is the temperature in Celsius, or you can
+    ask a user to type it in a keyboard.
+
+    The next step is to multiply the input temperature by 9.
+
+    Then you will divide the results of the step two by 5.
+
+    The next step is to add 32 to the result of step three.
+
+    And last you show the result. And this is a example of a five step algorithm
+    to convert from Celsius to Fahrenheit.
+
+    Now what is the difference between an algorithm and a programmer?
+
+    Again, an algorithm is a description of how to solve a problem,
+    while a program is an implementation of an algorithm in a specific programming
+    language, or you can say program is a sequence of instruction to a computer.
+
+    So you can take an algorithm and write a program for it in Python language,
+    or you can take the same algorithm and write a program for it
+    in C language, or Java language, or any other computer language that you know.
+
+    Please make sure that you understand that algorithms
+    can be written and analyzed independent of a programming language.
+
+    So algorithm is the description of how to solve a program.
+
+    Program is to implement that description into a particular language.
+
+    There's a difference between an algorithm, which
+    is written for humans to a follow versus an algorithm, which is we tend
+    to be converted to a computer program.
+
+    Humans are very smart, and they can understand confusing instructions.
+
+    And sometimes they can even correct some of the mistakes.
+
+    However, the computers are very strict, and they require very clear and correct
+    instructions.
+
+    And that is what is important in programming language.
+
+    Everything has to be precisely defined.
+
+    Let's talk about the goals of this course.
+
+    The first goal of this course is to learn
+    how to break a problem into simpler steps, which is basically an algorithm.
+
+    Practice makes perfect definately applies here.
+
+    The more you try to convert everyday problems into algorithms,
+    the better you get in writing a program.
+
+    Now the second goal of this course is to learn
+    how to convert an algorithm into a computer program, which
+    in this case, of course, is a Python computer program.
+
+    And lastly, we want to learn how to use Python language efficiently
+    and solve everyday problems.

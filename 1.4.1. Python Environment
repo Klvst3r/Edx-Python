@@ -1,0 +1,164 @@
+1.4.1. Python Environment
+
+PYTHON SHELL AND IDLE
+
+    FARHAD KAMANGAR: Today, I would like to talk about Python Shell and Python
+    Integrated DeveLopement Environment.
+
+    The objectives of our lesson for today are 
+    to understand what is an IDLE, what is the difference between Python Shell
+    and IDLE, and also, how to configure Python development environment.
+
+    So assuming that you have installed Python
+    correctly, go to the Start button, click All Programs,
+    find your Python, click on it, and you see a few options here.
+
+    The first one that I would like you to try is the one which says command line.
+
+    Click on that, and you see that a simple window opens.
+
+    It is simple because it doesn't have any menu on the top
+    and it looks like a DOS command.
+
+    Also notice that on the top of this window, it will tell you
+    what version of Python you have installed,
+    and there are other information about your system.
+
+    There is also a symbol here, which looks like three greater than signs.
+
+    This is called a prompt.
+
+    A prompt basically means that Python is waiting for you to type something
+    and it will immediately execute it.
+
+    For example, if I type 3 plus 4, it immediately tells me
+    the answer, which is seven.
+
+    This is in contrast with compiled programming languages,
+    such as C and Java.
+
+    In those programming languages, if you want to write a program
+    or execute a program, you have to type the entire program,
+    then compile it, and then execute it.
+
+    There are many other commands, which I can issue to Python at this point.
+
+    But the intention of this lesson is not to teach you all those commands.
+
+    It's just to teach you the difference between Python Shell and Python IDLE.
+
+    Next, go to Start again, click All Programs, go back to your Python,
+    but this time select the Python IDLE.
+
+    When you select that, a Python IDLE opens.
+
+    Let me put this side by side with your shell so you can see the difference.
+
+    First of all, what is on the top of the Python IDLE
+    is the same which is on the top of the Python Shell.
+
+    Also notice that the prompt is the same as Python Shell.
+
+    So if I type something in the prompt-- for example, what is 3 times 5-- and as
+    soon as I push Return, it will give me the answer.
+
+    The main difference between the Python Shell on the left
+    and Python IDLE on the right is that the Python IDLE
+    allows you to do graphical user interfaces and has menus on the top.
+
+    For example, if I click on the file, I can open new files,
+    and I can save files, and I can print.
+
+    Or if I click on Edit, I see that I can cut, copy, paste, and search, and so
+    on.
+    
+    I do not intend to go through all the menu items on the top.
+
+    The only one that I would like you to try is the options.
+
+    Click on the Options and click on Configure IDLE.
+
+    You see that a dialogue box opens.
+
+    This dialog box allows you to change the font size and the font type
+    and the background colors and the properties of your window.
+
+    For example, if I select my font size here to be 16 and click Apply,
+    you can see that immediately, the font becomes larger.
+
+    I can also change the background color of my window.
+
+    For example, if I click on Highlighting, Choose Color,
+    and let's say I want to make the background color of my window
+    to be yellow.
+
+    So I select that.
+
+    And as soon as I click OK, it will ask me to give it a name.
+
+    The reason is that if you in the future want to go back to the default menu
+    or you want to save some particular theme that you like,
+    you can give it a name and refer to it later.
+
+    So let me call it my yellow background and say OK.
+
+    And here, it will show me what it would look like if I apply it.
+
+    So let me just go ahead and apply it.
+
+    And as you can see, it immediately makes the background color to be yellow.
+
+    In this dialogue, you can also change the color of different kinds of strings
+    and the background of those fonts.
+
+    For example, you can say whenever an error happens,
+    I want it to show it with red color.
+
+    Now, if you want to go back to the original theme
+    and change everything back the way it was, click on Built in Theme
+    and say IDLE Classic and select IDLE Classic and apply it.
+
+    Not just that everything goes back except for the size of the font.
+
+    The size of the font just stays the same.
+
+    If you want to go back to the original font, which was let's say 12,
+    all you have to do is select 12 and apply.
+
+    And then of course, close this dialogue box,
+    which everything goes back the way it was.
+
+    So let's go back to the objective of the lesson.
+
+    The first one was, what is IDLE?
+    Before I can tell you what is an IDLE, let me tell you what is an IDE.
+
+    An IDE stands for the Integrated Development Environment,
+    and it is a software application that facilitates application
+    development for computer programmers.
+
+    So for example, the C language has IDE, the Java language has IDE,
+    and Python also has an IDE.
+
+    An IDE normally consists of the source code editor and automation tools
+    and debugger.
+
+    Some of these may not be familiar for you right now,
+    but as we go through the course, you will learn what they are
+    and what do they do.
+
+    So what is an IDLE?
+
+    An IDLE is an IDE for Python.
+
+    That basically means the development environment
+    that we write the programs for Python.
+
+    The reason it is called IDLE is just to distinguish it from the general IDE.
+
+    In the future lessons, we will talk about IDLE with more details.
+
+    At this point, all I want you to be able to do is to open the IDLE
+    and also understand the difference between the IDLE and the Python Shell.
+
+

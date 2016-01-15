@@ -1,0 +1,34 @@
+1.2. Step by Step Guideline for Installing Python on MacOSX
+
+This guide will show you how to install python version 3.4 on Mac which includes default python text editor. If you want to install any other version of python or any other text editor, please refer to additional resources.
+
+Step 1. Go to www.python.org
+
+Select "Downloads" and click on "View the full list"
+
+Step 2.  Select Python 3.4.3
+
+Step 3. Select "Mac OS X 64-bit/32-bit installer" and wait until download is complete.
+
+Step 4. Go to Downloads and double click on "Python 3.4.3". The installer window will open, click on "continue".
+
+Step 5. Click on "Continue".
+
+Step 6. Click on "Continue".
+
+Step 7. Click on "Agree".
+
+Step 8. Click on "Install".
+
+Wait until the installation is completed.
+
+Step 9. You should see the message that "The installation is successful". Click on "Close".
+
+Step 10. Open Applications and find "Python 3.4". Select "IDLE.app".
+
+The IDLE window will appear on the screen.
+
+Step 11. Select "File" and click on "New File".
+
+A text editor window will appear on the screen.
+

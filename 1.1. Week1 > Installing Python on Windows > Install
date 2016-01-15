@@ -1,0 +1,26 @@
+1.1. Week1 > Installing Python on Windows > Installing Python on Windows Discussion
+
+Step by Step Guideline for Installing Python on Windows
+
+This guide will show you how to install python version 3.4 on windows which includes default python text editor. If you want to install any other version of python or any other text editor, please refer to additional resources.
+
+Step 1. Go to www.python.org
+
+Step 2. Select "Downloads" and click on "View the full list"
+
+Step 3.  Select Python 3.4.3
+
+Step 4. Select the proper file (if your machine is 64 bit, select "Windows x86-64 MSI Installer) and download it
+
+Step 5. Run python 3.4.3, click Next
+
+Step 6.  Select a directory for Python, click Next
+
+Step 7. Select "Add python.exe to path" and click on "Entire feature will be installed on lacal hard drive". 
+
+Click Next 
+
+Wait Until Python installs
+
+Then you should see the completion message on your screen. Click Finish
+

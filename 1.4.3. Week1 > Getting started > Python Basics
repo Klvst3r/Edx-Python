@@ -1,0 +1,172 @@
+1.4.3. Week1 > Getting started > Python Basics
+
+Python Basics
+
+FARHAD KAMANGAR: In the previous lessons,
+you learned how to install Python, and how to open Python IDLE.
+
+The objective of this lesson is to get familiar with basic statements
+in Python.
+
+I have Python IDLE open here.
+
+And as I mentioned before, the first thing that you see in Python IDLE
+is the top of the Python that shows you information
+about the version of the Python that you have.
+
+And then you see these three greater than signs here, which
+is called a prompt.
+
+What you can do at this point is just use simple calculations.
+
+Such as we can say, 3 plus 4 and Python immediately tells you 7.
+
+Or you can use multiplication operation, like 3 times 9
+and it will tell you it is 27.
+
+You can divide numbers, such as 5 divided by 2, and Python shows you 2.5.
+And you can, of course, subtract numbers, like 6 minus 2
+and Python tells you it is 4.
+
+We can also type compound statements by using parenthesis.
+For example, I can say, what is 2 plus 4--
+and put them inside parenthesis-- times another parenthesis, which
+is 3 divided by 2?
+
+And of course, when I push the return Python me the result.
+
+The next thing that you should note is-- what
+if you have a lot of calculations done, and you
+would like to save them for future use?
+
+In that case, you can assign a variable name to each of your calculations.
+
+For example, I can say, x is equal to 5 plus 6.
+
+And in this case, Python does not show me anything,
+but it remembers the value of x is 11.
+
+Then I can say, for example, y is equal to 2 times 4.
+
+And it also remembers that.
+
+And then if I say, x plus y, then Python knows that the value of x is 11,
+and value of y is 8.
+
+So it adds them up and shows you the value of 19.
+
+You can also define strings.
+
+A string is a series of characters.
+
+For example, if I want to say, string "hello", then all I
+have to do is put it into a quotation.
+
+And then I print it.
+
+Python shows me that it is "hello".
+
+Remember that you can use either a single or double quotation
+to define a string.
+
+So I can use single quotations and say, 'hello' here, or use double quotations
+and say, "hello" here.
+
+You can also memorize the value of a string.
+
+For example, again I can say, x is equal to 'dog'.
+
+And Python remembers that the value of x is equal to 'dog'.
+
+You can also use print a statement to show different values.
+
+For example, I can say simply print 4.
+
+Which, basically, I'm asking Python to print the value of 4, which it does.
+
+Or I can say, print 'hello' and it does that.
+
+And I can also add comma between values and Python puts them back to back
+and prints them.
+
+For example, I can say print 'dog', comma 5, comma 3, comma 'cat'.
+
+So, in this case, I'm asking Python to show me four things back to back.
+
+Dog, and then 5, and then 3, and then cat.
+
+So, when I push the return, as you can see, Python shows them.
+
+I can also use the name of the variables and put them in the printing statement.
+
+Remember that Python memorized the value of x is 'dog'.
+
+So if I say print x, it shows me dog.
+
+Remember you can reuse the name of a variable if you want to.
+
+For example, the value of x that Python remembers right now is dog.
+
+However, I can simply say I don't want that.
+
+Just put x is equal to 3.7.
+
+So from now on the value of x will be 3.7.
+
+Let's say z equal to a string 'John'.
+
+Let's define another variable and call it age, and put it equal to 30.
+
+Now I can print a statement like, 'My name is' and put a comma.
+
+And then put z in here, and start another string.
+
+"and my age is" and put a comma, and put the variable age in here.
+
+What will be printed is four things back to back.
+
+The first one would be 'My name is' then the value of variable z.
+
+Then, 'and age is', and then the value of the age.
+
+So, if I push the return here, you see that it says, My name is John
+and my age is 30.
+
+There is one more thing that I would like you to learn in this lesson.
+
+And that is, how do you make Python forget about all the variables
+that it knows up to this point?
+
+Whatever you typed up to this point, Python remembered all of them.
+For example, you had a variable called x.
+
+You had a variable called y.
+
+You have a variable called z.
+
+You have a variable called age.
+
+Python remembers all of those.
+
+And if you want Python to forget about all of this,
+all you have to do-- go up here into the menus.
+
+Click Shell and Restart the Shell.
+
+Remember in this case if you ask Python to print x, it will give you an error.
+
+And the reason is when you restarted Python, all the variables are erased
+and Python has no value for variable x.
+
+And it cannot print it.
+
+What did you learn in this lesson?
+
+You learned that you can use Python like a calculator.
+
+You learned how to use variable names to restore values.
+
+You learned how to define a string.
+
+And you also learned that you can use print a statement
+to display values and strings.
