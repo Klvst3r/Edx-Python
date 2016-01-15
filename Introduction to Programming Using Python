@@ -1,0 +1,54 @@
+ Introduction to Programming Using Python
+
+ Python Basic Exercises 1.
+
+ >>> print(4+5)
+9
+>>> print(6*7)
+42
+>>> x = 2
+>>> print(x)
+2
+>>> x=2.0
+>>> print(x)
+2.0
+>>> print(9 / 2)
+4.5
+>>> print(8/2)
+4.0
+>>> print(24 - 13)
+11
+>>> x=24
+>>> print(x * 2)
+48
+
+
+
+
+Python Basics, Exercise 2 
+
+>>> x = 2.0
+>>> y = 1
+>>> z=x+y
+>>> print(z)
+3.0
+>>> x = 14 / 2
+>>> print(x)
+7.0
+>>> x = (24 * 2) / 3
+>>> y = 2.5
+>>> print (x + (y 2 2))
+21.0
+>>> x = "hello there"
+>>> print(x)
+hello there
+>>> x = "John"
+>>> print("hello",x)
+hello John
+>>> x= "dog"
+>>> y = "cat"
+>>> x = 2
+>>> print(x, y)
+2 cat
+
+
