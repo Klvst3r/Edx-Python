@@ -70,3 +70,31 @@ actualizado este archivo de git Python.
 
 
 
+Si se genera un error al hacer la actualizacion desde el remoto al momento de fusionar como en el siguiente caso:
+
+klvst3r@klvst3r:~/dev/Edx-Python$ git push -u origin master
+Username for 'https://github.com': Klvst3r
+Password for 'https://Klvst3r@github.com': 
+To https://github.com/Klvst3r/Edx-Python.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Klvst3r/Edx-Python.git'
+consejo: Updates were rejected because the tip of your current branch is behind
+consejo: its remote counterpart. Integrate the remote changes (e.g.
+consejo: 'git pull ...') before pushing again.
+consejo: See the 'Note about fast-forwards' in 'git push --help' for details.
+klvst3r@klvst3r:~/dev/Edx-Python$ git add -a
+
+
+
+
+Lo que debemos hacer es un: 
+
+$ git add -A
+
+Y ahora agregando los archivos podremos ahora si hacer la fusión.
+
+$ git merge origin/master
+
+Quedando finalmente actualizado el archivo con los ultimos cambios.
+
+
