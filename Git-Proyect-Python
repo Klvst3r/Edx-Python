@@ -48,3 +48,25 @@ Y finalmente se empujan los nuevos cambios desde local.
 
 $ git push -u origin master
 
+si revisamos el repositorio local no estar incluido el nuevo cambio generado desde GitHub, por lo que hay que sdescargar los cambios a local.
+
+Si revisamos las ramas tendremos:
+
+$ git branch
+* master
+
+Solo master, si revisamos todas las ramas.
+
+$ git branch -a
+* master
+  remotes/origin/master
+
+Por lo que sera necesrio fusionar con origin/master
+
+$ git merge origin/master
+
+Con esto se fusionaran los cambios de Github al repositorio local, teniendo actualizado al momento nuestro proyecto y se genera 
+actualizado este archivo de git Python.
+
+
+
