@@ -1,0 +1,50 @@
+Git Python
+
+Para este proyecto iniciamos crrando la carpeta 
+Edx-Python
+
+En ella se genero el primer commit con el archivo README.txt en local
+
+La configuracion inicial partio de entrar a la carpeta
+
+$ cd Edx-Python
+
+E iniciar el proyecto de manera local
+
+$ git init
+$ git config --global user.name "Klvst3r"
+$ git config --global user.email "klvst3r@gmail.com"
+
+Se crearon los archivos y crearon el primer commit con los archivos de inicio y se genero el primer commit
+
+$ subl README.txt
+$ git add -A
+$ git commit -m "Primer commit README.txt"
+
+Se conecto al repositorio de GitHub
+
+$ git remote add origin https://github.com/Klvst3r/Edx-Python.git
+
+Y se empujaron los cambios desde local
+
+$ git push -u origin master
+
+Se agregaron los archivos de la Primera semana
+
+De 0 hasta 1.4.5 Algorith and Programs
+
+
+Se Agregan los archivos y se hace el commit de estos archivos
+
+$ git add -A
+$ commit -m "Week 1, From introduction to Algorithm and Programs"
+
+
+Se hace una nueva actualización desde el repositorio remoto antes de subir los cambios a GitHub.
+
+$ git fetch origin master
+
+Y finalmente se empujan los nuevos cambios desde local.
+
+$ git push -u origin master
+
