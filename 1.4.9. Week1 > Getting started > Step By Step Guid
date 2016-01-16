@@ -1,0 +1,22 @@
+1.4.9. Week1 > Getting started > Step By Step Guideline for Opening a Text Editor
+
+
+
+Step 1.  Open the Python IDLE
+
+Step 2.  Select "File" and then click "New File"
+
+An empty Text editor will appear
+
+Step 3.  Select "File" and click on "Save" in order to save your file
+
+Step 4.   Give a name to your file and remember that the extension should be .py
+
+Step 5.  Now you can write a simple program. Simply write 
+
+print(2+3) in your text editor. Then you can                          either F5 or Select "Run" and click on "Run Module" 
+
+As you can see, the answer (5) will appear in your Python IDLE
+
+
+

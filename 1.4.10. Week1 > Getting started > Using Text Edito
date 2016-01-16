@@ -1,0 +1,36 @@
+1.4.10. Week1 > Getting started > Using Text Editor, Example
+
+
+An Example:
+
+Imagine that we want to write a program to calculate the area and perimeter of a rectangle. Here is our algorithm:
+
+1. Assign a value to the Height variable.
+
+2. Assign a value to the Width variable.
+
+3. Calculate the area -> (Height * Width).
+
+4. Calculate the perimeter -> (Height + Width) *2.
+
+Now open your text editor and make this algorithm to a program.
+
+
+
+Code
+
+my_program_1.py
+
+Height_of_rectangle = 20
+Width_of_rectangle = 15
+area = Height_of_rectangle * Width_of_rectangle
+perimeter = (Height_of_rectangle * Width_of_rectangle)* 2
+
+print("area of the rectangle is: ", area)
+print("perimeter of the rectangle is: ", perimeter)
+
+
+Result
+
+area of the rectangle is:  300
+perimeter of the rectangle is:  600

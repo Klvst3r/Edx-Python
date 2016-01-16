@@ -1,0 +1,165 @@
+1.4.8. Using The Text Editor
+
+	https://www.youtube.com/watch?v=XMPTWa46NMU
+	
+
+    FARHAD KAMANGAR: In the last lesson I showed you
+    how to convert the example algorithm into a program.
+
+    However, I did not enter the program into the Python development
+    environment.
+
+    In this lesson I'm going to show you how to enter
+    your program into Python Integrated Development Environment, which
+    is called IDLE, of course.
+
+    And also, I'm going to show you how to use the Python text editor,
+    and how to save your program, so you can use it for future.
+
+    And how to run your program after you've entered it into the text editor.
+
+    Let's recall the example program that we had before, and let me put
+    it side by side with the Python IDLE.
+
+    Entering the program into the Python IDLE is very simple.
+
+    All you have to do is type everything that you had on your example program
+    exactly on your Python IDLE.
+
+    So let me do that.
+
+    Notice that Python didn't do anything when you typed the first four
+    lines of your program.
+
+    However, as soon as you typed the print D statement,
+    Python shows you the value of the identifier D. Now,
+    let's convert another temperature from Celsius to Fahrenheit.
+
+    Let's say, I want to convert to a 40 degree Celsius to Fahrenheit.
+
+    What do I have to do?
+
+    Well, in this case I have to retype everything.
+
+    You immediately notice that it is not very convenient that every time you
+    wanted to convert a new temperature you have to type the entire program again.
+
+    So what can we do about this?
+
+    Very easy.
+
+    All you have to do is go click on File, and open the text editor
+    by saying a New File.
+
+    Python opens the text editor.
+
+    On the right I have the Python IDLE, and on the left
+    I have to Python text editor.
+
+    So let me type the program again into the text editor.
+
+    Notice that when you type your program in the text editor nothing happens
+    and the program does not run by itself, because this is only a text editor.
+
+    And Python is waiting for you to actually run
+    the program by issuing a run command.
+
+    The first thing you have to do now is to save this file and give it a name.
+
+    Go to File, click on Save As, and Python opens a dialog box.
+
+    Go to some folder or directory that you know where it is and you
+    can find-- easily find it later.
+
+    In this case, I created a folder called CSE 1309x.
+    
+    I'm going to name my program something that I can remember later.
+
+    Let's say, convert Celsius to Fahrenheit.
+
+    And also, notice that I have to call the extension py.
+
+    If you do not name your file with the extension dot py,
+
+    you will not be able to execute it.
+
+    I'm going to save this.
+
+    And notice that immediately on the top it tells me the name of the file,
+    and also it tells me which directory it is saved.
+
+    Now, to run my file all I have to do is go on the Run command
+    and click on Run Module.
+
+    Of course, there is a short cut and that is by hitting the F5.
+
+    So, when I click this, notice that the output appears in the Python IDLE.
+
+    So now I have my program in a text editor,
+
+    and any time I run it its output will appear in the Python IDLE.
+
+    This time, if I want to change the input temperature to let's say 40,
+    all I have to do is change one variable, and then go here,
+    and say Run again or hit F5.
+
+    Now Python comes back and asks you, do you want to save your new file?
+
+    The reason it asks you that, because you changed
+    your original file from A equal to 20 to A equal to 40,
+    and you have not saved it.
+
+    So you have two choices.
+
+    Either say OK here, and immediately it will
+    show that the result of converting 40 degree Celsius to Fahrenheit
+    is 104 degrees.
+
+    You also have the option of changing the configuration of Python such
+    that it automatically saves any changes, and it doesn't ask you the questions
+    again.
+
+    To do that you go to Options, again click on Configure IDLE,
+    click on General, and click here as No Prompt, and apply it, and OK.
+
+    This time, if I change the temperature to anything else, as soon as I hit Run,
+    Python automatically saves my file and shows me the result. Let's try that.
+
+    Let's say 60 degree Celsius and I hit F5,
+    and I immediately see that it is equivalent to 140 degrees Fahrenheit.
+
+    You see the advantage of having a text editor is first of all,
+    you save you file, so you don't have to type it in the future.
+
+    And now, imagine that in the future you want to run this program again--
+    let me close everything here.
+
+    In the future if I decide to run my program again, I can open the IDLE,
+    click on File, click on Open.
+
+    Python opens a dialog box.
+
+    In that dialog box find your file and click Open.
+
+    Python opens your file.
+
+    Now, if you want to run it again, go to Run and click Module or hit F5.
+
+    And the output, again, appears on the Python IDLE.
+
+    So in this lesson, we learned that you can
+    type the entire program in a text file and then
+    ask Python to run that text file.
+
+    To do that, you go to Python IDLE, click on File, and then, select New File.
+
+    This will open a text editor in a new window.
+
+    Type your program in the text editor, and then click on File,
+    and then select Save As to save your file.
+
+    Remember that you must name your file with the extension dot py.
+
+    And finally, you can run your program by selecting Run,
+    and then select Run Module, or you can simply hit F5.
+

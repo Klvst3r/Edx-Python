@@ -1,0 +1,191 @@
+1.4.7. Your First Program
+
+	https://www.youtube.com/watch?v=iQVlvkkkD3s
+
+
+    PROFESSOR FARHAD KAMANGAR: Welcome back.
+    
+    In this lesson I will show you how to go over
+    the example algorithm that was discussed in a previous lesson
+    and converted to a program.
+
+    Let's just start by the example algorithm
+    that we talked about last time.
+
+    Recall that the algorithm was about converting temperature
+    from Celsius to Fahrenheit.
+
+    Step 1 of the algorithm was to get the input temperature in Celsius.
+
+    Imagine that the input temperature is 20 degrees Celsius.
+
+    In step 2, we're going to get the input temperature
+    and multiply it by 9 In step 3, we divide the result of step 2
+    by 5, which is 180 divided by 5.
+
+    And in step 4, we're going to add 32 to the result. Now 180 divided by 5 is 36,
+    and we are going to add 32 to it.
+
+    And then, in the last step, we are going to show the result of step 4, which
+    in this case would be 68.
+
+    1. 20
+    2. 20 * 9
+    3. 180 / 5
+    4. 36 + 32 (68)
+
+
+    Now imagine that each step of the algorithm
+    has to be performed by a different person.
+
+    And these people cannot talk to each other,
+    and the only way they can communicate is through a piece of paper.
+    
+    So person 1 gets the input temperature.
+
+    In this case, let's imagine it is 20.
+
+    And then, it's supposed to pass it to person number 2,
+    so it can be multiplied by 9.
+
+    In order to do so, person 1 goes and gets a scratch paper,
+    writes the value of 20.
+
+    However, to pass this to person number 2, we need to give it a name,
+    so we can be fair to it.
+
+    So let's imagine we give it the name, like A. A is not a particular name.
+
+    You can call it anything else that you want.
+
+    It's just a name which is given to 20.
+
+    So A is associated with 20.
+
+    A is a name, and 20 is the value of it.
+
+    And in computer programming, we write it as A equal sign 20.
+
+    A = 20
+
+    I should emphasize that this statement does not mean that A is equal 20.
+
+    It simply means that A is an identifier, which
+    is associated with the value of 20.
+
+    In technical term, we call A an identifier.
+
+    Now we ask person 2 to go into the scratch paper
+    and get the value, which is associated with the identifier A
+    and multiply it times 9.
+
+
+    And of course, the result is 180.
+
+    In order to refer to this value, we should give it a name.
+
+    Let's give it the name B-- again, B's not a particular name.
+
+    I could have called it anything.
+
+    This is just for simplicity, I called it B. B is associated with 180.
+
+    The statement that we are going to write is B equal sign, A times 9.
+    Let's look at this statement a little closer.
+
+    B = A * 9
+
+    What this statement says to the person 2, or to the computer,
+    is to calculate the right side of the equal sign.
+
+    To do so, you have to go get the value, which is associated with identifier A
+    and multiply it times 9.
+
+    Then, put the resulting value in the scratch paper
+    and call it B. That's all there is.
+    Again, B is not equal 280.
+
+
+    It's only associated with it.
+    
+    Now person 3 needs to get the result of step 2 and divide it by 5.
+    
+    And this is how you would say it.
+
+    This statement says to the person 3 that go to the scratch paper.
+
+    Get the value, which is associated with identifier B. Divide it by 5.
+
+    And then, put the result into their scratch paper
+    and associate it with another identifier,
+    in this case C. 
+
+    C = B / 5
+
+    With the same token, person 4 is
+    supposed to get the result of step 3 and add 32 to it,
+    and this is how we'll say it.
+
+    D = C + 32
+
+    Last, person 5 is supposed to show the result of step 4.
+    And this is how we say it.
+    Show their value of D. Basically, in computer programming
+    this is how we'll say it.
+    It says, "Print the value, which is associated with the identifier D."
+
+    print(D)
+
+    Again, I should emphasize that A, B, C, and D
+    are identifiers, which are associated with the numerical values of 20,
+    180, 36, and 68.
+
+    At this point you may ask, what does all of this
+    have to do with Python and programming?
+
+    This is a very good question.
+
+    Think of the persons, which are involved in this algorithm,
+    as the brain of a computer, which is called the CPU.
+
+
+    Example of an Algorithm
+
+    A Python program to convert temparature from Celsius to Fahrenheit:
+
+
+    								Program 				Memory
+    							-----------------		-----------------
+    							| A = 20		|		|   ...			|
+    							|---------------|		|---------------|
+		-----------------		| B = A * 9		|		|   20			|
+		|				|		|---------------|		|---------------|
+		|	Central		|		| C = B / 5		|		|	180			|
+		|	Processing	|		|---------------|		|---------------|
+		|	Unit		| <--->	| D = C + 32	| <--->	|	36			|
+		|	 - CPU -	|		|---------------|		|---------------|
+		|				|		| print(D)		|		|	68			|
+		|				|		-----------------		|---------------|			
+		-----------------								|   ---			|
+														-----------------
+
+
+
+    Also, remember that the definition of a program
+    is a set of instructions given to a computer.
+
+    Think of instructions, which are given to each person,
+    as one line of a program.
+
+    So in this case, the set of all the five instructions constitute a program.
+
+    Also, think of this scratch paper as the memory of the computer,
+    and each of the locations, which hold the value, as a variable.
+
+    So, congratulations.
+
+    You actually wrote your first program by converting an algorithm
+    into a Python program.
+
+
+
